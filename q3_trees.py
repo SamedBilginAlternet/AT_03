@@ -247,7 +247,10 @@ def print_23(node, prefix="", is_last=True, label="root"):
 # Ana program
 # ============================================================
 def main():
-    # Veri seti 1 defa üret
+    # Veri seti 1 defa üret. Seed sabit -> aynı veri seti her çalıştırmada
+    # üretilir, böylece raporun çıktıları yeniden üretilebilir.
+    # Seed'i kaldırırsanız her çalıştırmada farklı 20 sayı üretilir.
+    random.seed(42)
     data = [random.randint(0, 1000) for _ in range(20)]
 
     print("=" * 70)
