@@ -10,6 +10,7 @@ Veritabanı/Algoritma dersi 3. ödev — BST, AVL, 2-3 Ağacı + Topological Sor
 | `CEVAPLAR.md` | Üç sorunun cevabı (Markdown kaynak) |
 | `CEVAPLAR.pdf` | EDS'ye yüklenecek PDF (UTF-8 Türkçe) |
 | `q1_verify.py` | Soru 1 BST traversal'larını koddan doğrular |
+| `q2_topological.py` | Soru 2 DFS tabanlı topological sort + döngü tespiti |
 | `q3_trees.py` | Soru 3: BST + AVL + 2-3 ağacı karşılaştırması |
 
 ## Çalıştırma
@@ -17,8 +18,9 @@ Veritabanı/Algoritma dersi 3. ödev — BST, AVL, 2-3 Ağacı + Topological Sor
 Python 3 gerekir. Ek bağımlılık yoktur (sadece standart kütüphane).
 
 ```bash
-python3 q1_verify.py   # Soru 1 doğrulaması (preorder/inorder/postorder)
-python3 q3_trees.py    # Soru 3: 20 rastgele sayıyla 3 ağacın karşılaştırması
+python3 q1_verify.py        # Soru 1 doğrulaması (preorder/inorder/postorder)
+python3 q2_topological.py   # Soru 2 doğrulaması (DFS topological sort)
+python3 q3_trees.py         # Soru 3: 20 rastgele sayıyla 3 ağacın karşılaştırması
 ```
 
 `q3_trees.py` içinde `random.seed(42)` sabittir → çıktı `CEVAPLAR.md` ile birebir aynıdır. Her seferinde farklı veri istenirse seed satırı silinebilir.
