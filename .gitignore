@@ -1,0 +1,4 @@
+# Pandoc ara çıktıları
+CEVAPLAR.html
+__pycache__/
+*.pyc
