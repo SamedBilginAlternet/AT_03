@@ -60,6 +60,7 @@ Verilen ekleme sırası: **n, z, d, f, a, k, o, m, e, l, t, g**
 
 > **Not:** Aşağıda her grafın okunan kenar listesi ile birlikte çözüm verilmiştir.
 > Grafiğinizde farklı bir kenar varsa, aynı algoritma akışını kendi kenar listenize uygulayın.
+> Bu cevap koddan da otomatik olarak doğrulanmıştır — bkz. [`q2_topological.py`](q2_topological.py).
 
 ### Graf (a)
 
